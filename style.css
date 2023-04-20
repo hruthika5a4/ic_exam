@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+head{
+    display: none;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: linear-gradient(135deg, #89c4ec, #ce9ae2);
+    display: block;
+}
+div {
+    display: block;
+}
+nav{
+    display: block;
+    
+}
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+ul {
+    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#logo {
+    font-size: 3em;
+    font-weight: 700;
+    color: #9336f0;
+    margin-right: auto;
+    cursor: pointer;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-links a {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.5px;
+    background: #9336f0 !important;
+    color: white !important;
+    font-size: 1.8em;
+    border-radius: 5%;
+    cursor: pointer;
+    border-color: black;
+    padding: 10px;
+    font-weight: 100;
+}
+#home {
+    background-color: rgb(223, 196, 245);
+    color: white;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#home h2 {
+    font-weight: 200;
+    letter-spacing: .5px;
+}
+h2 {
+    font-size: 2.5em;
+}
+h1 {
+    font-size: 5em;
+}
+#bio {
+    display: flex;
+    align-items: center;
+}
+#bio img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 100px;
+}
+#portfolio div article p, h3, img {
+    text-align: center;
+    padding: 20px 5px 0 5px;
+}
+#bio article {
+    margin: 10px;
+}
+article {
+    display: block;
+}
+#bio h1 {
+    letter-spacing: 0.5px;
+    font-size: 4em;
+    font-weight: 500;
+}
+#bio article p {
+    padding: 20px 0;
+}
+p {
+    font-size: 1.5em;
+}
+
+#portfolio {
+    background: url(./assets/Porfolio-background.svg);
+    background-color: rgb(223, 196, 245);
+    color: white;
+    display: flex;
+    
+    flex-direction: column;
+    height: 450px;
+    text-align: center;
+    margin: 20px 0;
+}
+#portfolio>* {
+    margin-top: 20px;
+}
+#portfolio hr {
+    width: 400px;
+    margin: 20px auto;
+}
+#portfolio div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    margin-bottom: 50px;
+}
+#portfolio div article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+}
+#portfolio div article p, h3, img {
+    text-align: center;
+    padding: 50px 5px 0 5px;
+}
+.portfolio-icon {
+    font-size: 3em;
+    color: #9336f0;
+}
+#skills h2 {
+    text-align: center;
+}
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+}
+#skills ul {
+    list-style: none;
+    font-size: 1.5em;
+}
+#skills ul li {
+    margin: 10px 0;
+}
+progress[value] {
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+    color: #89c4ec;
+}
+#skills ul li {
+    margin: 10px 0;
+}
+contact {
+    background-color: black;
+    color: white;
+}
+.input {
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: black;
+}
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.5px;
+    background: #9336f0 !important;
+    color: white !important;
+    font-size: 1.8em;
+    border-radius: 5%;
+    cursor: pointer;
+    border-color: black;
+    padding: 10px;
+    font-weight: 100;
+}
+
+
